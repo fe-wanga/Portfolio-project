@@ -8,8 +8,6 @@ I am a passionate and dedicated student, currently pursuing a degree in Computer
 
 ## Projects
 
-### [Project 1 Title]
-
 [Personal Portfolio]
 
 **Tech Stack:** [HTML CSS]
