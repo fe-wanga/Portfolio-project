@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio project</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body id="home">
+  <header class="header">
+    <nav class="navbar">
+      <div class="navbar-container container">
+        <div>
+          <h1 class="navbar-brand">Sanket Bodake</h1>
+        </div>
+        <ul class="menu-items">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#home">Portfolio</a></li>
+          <li><a href="#contact-me">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="home-content" id="home-page">
+      <div class="name">
+        <h1>Hi, I'm Felix Wanga</h1>
+        <p>A Web Developer in training.</p>
+      </div>
+      <div class="angle-down-icon">
+        <a href="#about"><i class="fas fa-angle-down"></i></a>
+      </div>
+    </div>
+  </header>
+  <section class="about-me" id="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="left-content">
+          <div>
+            <h1 class="about-heading">About Me</h1>
+          </div>
+          <img src="https://picsum.photos/200/300" alt="image" />
+          <p>
+            As a Computer Science student at South Eastern Kenya University, I'm immersed in the dynamic realm of
+             web development. Passionate about crafting digital experiences, I navigate the ever-evolving world of coding and design, eager to contribute innovative solutions. \
+            Committed to continuous learning, I thrive on the journey of creating impactful web solutions
+          </p>
+          <div class="work-arrow">
+          </div>
+        </div>
+        <div class="skills">
+          <div class="right-content">
+            <div>
+              <h1 class="skills-heading">My Skills</h1>
+            </div>
+            <div class="skills-bar">
+              <div class="bar">
+                <div class="info">
+                  <span>HTML</span>
+                </div>
+                <div class="progress-line"><span class="html"></span></div>
+                <div class="bar">
+                  <div class="info">
+                    <span>CSS</span>
+                  </div>
+                  <div class="progress-line"><span class="css"></span></div>
+                    <div class="bar">
+                      <div class="info">
+                        <span>JAVASCRIPT</span>
+                      </div>
+                      <div class="progress-line"><span class="javascript"></span></div>
+                      <div class="bar">
+                        <div class="info">
+                          <span>C Programming</span>
+                        </div>
+                        <div class="progress-line"><span class="c"></span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="work-arrow-2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="contact" id="contact-me">
+    <div class="container">
+      <div class="contact-content">
+        <h2>Contact Me</h2>
+        <div class="wrapper">
+            <form class="form" action="mailto:felixodh8147@gmail.com">
+              <input type="text" class="name formEntry" placeholder="Name"  required/>
+              <input type="text" class="email formEntry" placeholder="Email" required/>
+              <textarea class="message formEntry" placeholder="Message"></textarea>
+              <input type="checkbox" class="termsConditions" value="Term">
+              <label style="color: grey" for="terms"> I Accept the <span style="color: #0e3721">Terms of Use</span> & <span style="color: #0e3721">Privacy Policy</span>.</label><br>
+              <button class="submit formEntry" onclick="thanks()">Submit</button>
+            </form>
+          </div>
+        <p class="links">Or find me on:</p>
+        <a href="https://www.linkedin.com/in/felix-wanga-b83036226/" target="blank"><i class="fab fa-linkedin">
+            Linkedin</i></a>
+        <a href="https://codepen.io/xonjey" target="blank"><i class="fab fa-codepen"> CodePen</i></a>
+        <a href="https://github.com/fe-wanga" target="blank"><i class="fab fa-github"></i> Github</a>
+        <a href="https://dev.to/fe-wanga" target="blank"><i class="fab fa-dev"></i> Dev Community</a>
+        <a href="https://twitter.com/wanga_fe" target="blank"><i class="fab fa-twitter"> Twitter</i></a>
+        <a href="https://www.instagram.com/fe_wanga/" target="blank"><i class="fab fa-instagram"></i> Instagram</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
